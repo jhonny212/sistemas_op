@@ -1,0 +1,17 @@
+dn: dc=nightwing21,dc=com
+dc: nightwing21
+objectClass: top
+objectClass: domain
+
+dn: cn=admin ,dc=nightwing21,dc=com
+objectClass: organizationalRole
+cn: admin
+description: LDAP Manager
+
+dn: ou=People,dc=nightwing21,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=nightwing21,dc=com
+objectClass: organizationalUnit
+ou: Group
